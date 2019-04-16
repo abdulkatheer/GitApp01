@@ -3,6 +3,10 @@ public class Address{
 	private String secondLine;
 	private String pin;
 
-	public void setData(){
+	public void setData(String firstLine, String secondLine, String pin){
+		this.firstLine = firstLine;
+		this.secondLine = secondLine;
+		this.pin = pin;
 	}
+	
 }
